@@ -17,9 +17,9 @@
 	a { color: LinkText; }
 	a:visited { color: VisitedText; }
 
-	body { margin: 1em 2em; }
+	body { margin: 1em; }
 	div.image { text-align: center; }
-	div.broadsheet { display: block; margin: 1em 2em; border: solid 1px gray; padding: 1em 2em; text-align: justify; }
+	div.broadsheet { display: block; margin: .25em .75em; border: solid 1px gray; padding: .25em .75em; text-align: justify; }
 	div.broadsheet.stone { background: #e6e6e0; }
 	div.broadsheet.goddard { background: #dfaf90; }
 	div.broadsheet.handwritten { background: #ffffd0; }
@@ -29,14 +29,15 @@
 		div.broadsheet.handwritten { background: #202000; }
 	}
 	div.banner, div.ownership, div.headline { text-align: center; margin-bottom: 20px;}
-	div.banner { font-size: 300%; }
-	div.ownership { font-size: 200%; }
+	div.banner { font-size: 240%; }
+	div.ownership { font-size: 160%; }
 	div.headline { font-size: 120%; }
 	span.smaller { font-size: 60%; }
-	span.spaced { letter-spacing: 1em; }
-	p#firstparagraph { text-indent: 10em; }
-	p#secondparagraph { text-indent: 3em; }
-	xspan.truths, xspan.facts { display: list-item; text-indent: 2em; list-style: none; margin: 1em 0; }
+	span.spaced { letter-spacing: .5em; }
+	
+	div.stone p#firstparagraph { text-indent: 25%; }
+	div.stone p#secondparagraph { text-indent: 10%; }
+	div.stone xspan.truths, xspan.facts { display: list-item; text-indent: 2em; list-style: none; margin: 1em 0; }
 	div.stone div.signatories { display: inline-block; margin: .5em 0; padding: 0; vertical-align: top; width: 9em; }
 	div.stone div.signatories p { display: inline; margin: 0; padding: 0; text-indent: 0; xoutline: solid pink 9px }
 	
@@ -79,7 +80,7 @@
   border-bottom: 2px solid transparent;
 
 }
-div.goddard div.authorization { padding-left: 60%; }
+div.goddard div.authorization { padding-left: 55%; text-align: left; }
 
 	div.gallery { text-align: center; }
 	div.gallery .fig { display: inline-block; width: 192px; margin: 0 auto; text-align: center; }
@@ -90,13 +91,13 @@ div.goddard div.authorization { padding-left: 60%; }
 <body>
 
 <h1>The Declaration of Independence of The United States of&nbsp;America</h1>
-<p>The Project Gutenberg HTML edition of The Declaration of Independence, by Thomas Jefferson; Edition 2, (December 29, 2026)</p>
+<p>The Project Gutenberg HTML edition of The Declaration of Independence, by Thomas Jefferson; Edition 2 (December 29, 2026)</p>
 
 <div class="notes">
 <p><b>Table of Contents</b></p>
 
 <ul>
-	<li><a href="#transcribers">Transcribers Notes</a> regarding this edition of the Declaration EBook, and the versions it contains.</li>
+	<li><a href="#transcribers">Transcribers Notes</a> regarding this edition of the EBook, and the versions it contains.</li>
 	<li><a href="#stone">Stone Facsimile</a> 1823, archival source</li>
 	<li><a href="#goddard">Goddard Broadside</a> 1777, newspaper published</li>
 	<li><a href="#handwritten">Jefferson Draft</a> 1776, handwritten pages</li>
@@ -118,9 +119,8 @@ div.goddard div.authorization { padding-left: 60%; }
 
 <div class="broadsheet stone">
 
-<div class="banner">IN CONGRESS, July <span class="smaller">4, 1776</span>.</div>
-<div class="ownership">The unanimous Declaration <span class="smaller">of the thirteen united</span> States of
-America,</div>
+<div class="banner">IN CONGRESS, July&nbsp;<span class="smaller">4,&nbsp;1776</span>.</div>
+<div class="ownership">The unanimous Declaration <span class="smaller">of the thirteen united</span> States of&nbsp;America,</div>
 
 <p id="firstparagraph">When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to
 assume, among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, a decent respect to the opinions of mankind requires that they
@@ -151,10 +151,10 @@ invested with Power to legislate for us in all cases whatsoever.&nbsp;—— </s
 Protection and waging War against us.&nbsp;—— </span><span class="facts">  He has plundered our seas, ravaged our Coasts, burnt our towns, and destroyed the lives of our people.&nbsp;—— </span><span class="facts">  He is at this time transporting large armies of foreign mercenaries to compleat the works of death, desolation and tyranny, already begun with circumstances of Cruelty &amp; perfidy scarcely paralleled in the most barbarous ages, and totally unworthy of the Head of a civilized nation.&nbsp;—— </span><span class="facts">  He has constrained our fellow Citizens taken Captive on the high Seas to bear Arms against their Country, to become the executioners of their friends and Brethren, or to fall themselves by their Hands.&nbsp;—— </span><span class="facts">  He has excited domestic insurrections amongst us, and has endeavoured to bring on the inhabitants of our frontiers, the merciless Indian
 Savages, whose known rule of warfare, is an undistinguished destruction of all ages, sexes and conditions.&nbsp;—— </span><span class="facts">  In every stage of these Oppressions We have Petitioned for Redress in the most humble terms: Our repeated Petitions have been answered only by
 repeated injury. A Prince, whose character is thus marked by every act which may define a Tyrant, is unfit to be the ruler of a free People.&nbsp;—— </span><span class="facts">  Nor have We been wanting in attention to our Brittish brethren. We have warned them from time to time of attempts by their legislature to extend an unwarrantable jurisdiction over us. We have reminded them of the circumstances of our emigration and settlement here. We have appealed to their native justice and magnanimity, and we have conjured them by the ties of our common kindred to disavow these usurpations, which would inevitably interrupt our connections and correspondence. They too have been deaf to the voice of justice and of consanguinity. We must, therefore, acquiesce in the necessity, which denounces our Separation, and hold them, as we hold the rest of mankind, Enemies in
-War, in Peace Friends.</span></p>
+War, in Peace&nbsp;Friends.</span></p>
 
 <p id="secondparagraph"><b>We, therefore,</b> the Representatives of the <b>united States of America,</b> in General Congress, Assembled, appealing to the Supreme Judge of the world for the rectitude of our intentions, do, in the Name, and by the Authority of the good People of these Colonies, solemnly publish and declare, That these United Colonies are, and of Right ought to be <b>Free
-and Independent States</b>; that they are Absolved from all Allegiance to the British Crown, and that all political connection between them and the State of Great Britain, is and ought to be totally dissolved; and that as Free and Independent States, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which Independent States may of right do.&nbsp;—— And for the support of this Declaration, with a firm reliance on the Protection of Divine Providence, we mutually pledge to each other our Lives, our Fortunes and our sacred Honor.</p>
+and Independent States</b>; that they are Absolved from all Allegiance to the British Crown, and that all political connection between them and the State of Great Britain, is and ought to be totally dissolved; and that as Free and Independent States, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which Independent States may of right do.&nbsp;—— And for the support of this Declaration, with a firm reliance on the Protection of Divine Providence, we mutually pledge to each other our Lives, our Fortunes and our sacred&nbsp;Honor.</p>
 
 
 <div class="signatories" id="Georgia">
@@ -174,7 +174,7 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 </div>
 
 <div class="signatories" id="Maryland">
-<p>Samuel Chase<br>William Paca<br>Thomas Stone<br>Charles Carroll of Carrollton</p>
+<p>Samuel Chase<br>William Paca<br>Thomas Stone<br>Charles Carroll of&nbsp;Carrollton</p>
 </div>
 
 <div class="signatories" id="Virginia">
@@ -231,7 +231,7 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 <div class="gallery fig"><a href="https://commons.wikimedia.org/wiki/File:Goddard_broadside.jpg"><img src="//thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Goddard_broadside.jpg/250px-Goddard_broadside.jpg" width="250"></a></div>
 
 <div class="broadsheet goddard">
-<div class="headline"><span class="smallcaps">IN CONGRESS, JULY 4, 1776.</span><br><span class="spaced smaller">THE UNANIMOUS</span><br> <span class="spaced">DECLARATION</span><br><span class="spaced smaller">OF THE</span><br><span class="smallcaps">THIRTEEN UNITED STATES OF AMERICA.</span></div>
+<div class="headline"><span class="smallcaps">IN CONGRESS, JULY&nbsp;4,&nbsp;1776.</span><br><span class="spaced smaller">THE UNANIMOUS</span><br> <span class="spaced">DECLARATION</span><br><span class="spaced smaller">OF THE</span><br><span class="smallcaps">THIRTEEN UNITED STATES OF&nbsp;AMERICA.</span></div>
 
 <p><span class="smallcaps">WHEN,</span> in the Course of human Events, it becomes necessary for one People to dissolve the Political Bands which have connected them with another, and to assume, among the Powers of the Earth, the separate and equal Station to which the Laws of Nature and of Nature's GOD entitle them, a decent Respect to the Opinions of Mankind requires that they should declare the Causes which impel them to the Separation.</p>
 
@@ -293,9 +293,9 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 
 <p>IN every Stage of these Oppressions we have Petitioned for Redress in the most humble Terms: Our repeated Petitions have been answered only by repeated Injury. A Prince, whose Character is thus marked by every Act which may define a Tyrant, is unfit to be the Ruler of a free People.</p>
 
-<p>NOR have we been wanting in Attentions to our British Brethren. We have warned them, from Time to Time, of Attempts by their Legislature to extend an unwarrantable Jurisdiction over us. We have reminded them of the Circumstances of our Emigration and Settlement here. We have appealed to their native Justice and Magnanimity, and we have conjured them by the Ties of our common Kindred to disavow these Usurpations, which would inevitably interrupt our Connexions and Correspondence. They too have been deaf to the Voice of Justice and of Consanguinity. We must, therefore, acquiesce in the Necessity, which denounces our Separation, and hold them, as we hold the Rest of Mankind, Enemies in War, in Peace Friends.</p>
+<p>NOR have we been wanting in Attentions to our British Brethren. We have warned them, from Time to Time, of Attempts by their Legislature to extend an unwarrantable Jurisdiction over us. We have reminded them of the Circumstances of our Emigration and Settlement here. We have appealed to their native Justice and Magnanimity, and we have conjured them by the Ties of our common Kindred to disavow these Usurpations, which would inevitably interrupt our Connexions and Correspondence. They too have been deaf to the Voice of Justice and of Consanguinity. We must, therefore, acquiesce in the Necessity, which denounces our Separation, and hold them, as we hold the Rest of Mankind, Enemies in War, in Peace&nbsp;Friends.</p>
 
-<p>WE, therefore, the Representatives of the UNITED STATES OF AMERICA, in GENERAL CONGRESS Assembled, appealing to the Supreme Judge of the World for the Rectitude of our Intentions, do, in the Name, and by Authority of the good People of these Colonies, solemnly Publish and Declare, That these United Colonies are, and of Right ought to be, FREE AND INDEPENDENT STATES; that they are absolved from all Allegiance to the British Crown, and that all political Connexion between them and the State of Great-Britain, is, and ought to be, totally dissolved; and that as FREE AND INDEPENDENT STATES, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which INDEPENDENT STATES may of Right do. And for the Support of this Declaration, with a firm Reliance on the Protection of DIVINE PROVIDENCE, we mutually pledge to each other our <span class="italics">Lives,</span> our <span class="italics">Fortunes,</span> and our <span class="italics">sacred Honour.</span></p>
+<p>WE, therefore, the Representatives of the UNITED STATES OF AMERICA, in GENERAL CONGRESS Assembled, appealing to the Supreme Judge of the World for the Rectitude of our Intentions, do, in the Name, and by Authority of the good People of these Colonies, solemnly Publish and Declare, That these United Colonies are, and of Right ought to be, FREE AND INDEPENDENT STATES; that they are absolved from all Allegiance to the British Crown, and that all political Connexion between them and the State of Great-Britain, is, and ought to be, totally dissolved; and that as FREE AND INDEPENDENT STATES, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which INDEPENDENT STATES may of Right do. And for the Support of this Declaration, with a firm Reliance on the Protection of DIVINE PROVIDENCE, we mutually pledge to each other our <em>Lives,</em> our <em>Fortunes,</em> and our <em>sacred&nbsp;Honour.</em></p>
 
 <div class="headline">John Hancock.</div>
 
@@ -314,7 +314,7 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 </div>
 <div class="statesignatories">
 	<div class="state">MARYLAND,</div>
-	<div class="signatories leftbracket">Samuel Chase,<br> Wm. Paca,<br> Thos. Stone,<br> Charles Carroll of Carrollton.</div>
+	<div class="signatories leftbracket">Samuel Chase,<br> Wm. Paca,<br> Thos. Stone,<br> Charles Carroll of&nbsp;Carrollton.</div>
 </div>
 <div class="statesignatories">
 	<div class="state">VIRGINIA,</div>
@@ -354,17 +354,17 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 </div>
 </div>
 
-<div class="headline">IN CONGRESS, JANUARY 18, 1777.</div>
+<div class="headline">IN CONGRESS, JANUARY&nbsp;18,&nbsp;1777.</div>
 
-<p><span class="italics">ORDERED,</span><br><span class="smallcaps">THAT</span> an authenticated Copy of the DECLARATION OF INDEPENDENCY, with the Names of the MEMBERS of CONGRESS, subscribing the same, be sent to each of the UNITED STATES, and that they be desired to have the same put on RECORD.</p>
+<p><span class="italics">ORDERED,</span><br><span class="smallcaps">THAT</span> an authenticated Copy of the DECLARATION OF INDEPENDENCY, with the Names of the MEMBERS of CONGRESS, subscribing the same, be sent to each of the UNITED STATES, and that they be desired to have the same put on&nbsp;RECORD.</p>
 
 <div class="authorization">
-	By Order of CONGRESS,<br>
+	By Order of&nbsp;CONGRESS,<br>
 	<b>JOHN HANCOCK,<br>
 	<i>President.</i></b>
 </div>
 
-<p>BALTIMORE, in MARYLAND: Printed by MARY KATHARINE GODDARD.</p>
+<p>BALTIMORE, in MARYLAND: Printed by MARY&nbsp;KATHARINE&nbsp;GODDARD.</p>
 
 </div>
 
@@ -383,14 +383,13 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
   </div>
   <div class="fig">
     <p><a href="https://dev.gutenberg.org/files/1/1-h/images/dec3.jpg"><img src="https://dev.gutenberg.org/files/1/1-h/images/dec3th.jpg" alt="Third page"></a></p>
-  </div>
-  <div class="fig">
+  </div>&nbsp;<div class="fig">
     <p><a href="https://dev.gutenberg.org/files/1/1-h/images/dec4.jpg"><img src="https://dev.gutenberg.org/files/1/1-h/images/dec4th.jpg" alt="Fourth page"></a></p>
   </div>
 </div>
 
 <div class="broadsheet handwritten">
-	<div class="headline">A Declaration of the Representatives of the UNITED STATES OF AMERICA, in General Congress assembled.</div>
+	<div class="headline">A Declaration of the Representatives of the UNITED STATES OF AMERICA, in General Congress&nbsp;assembled.</div>
 		<p>When in the course of human events it becomes necessary for a people to advance from that subordination in which they have hitherto remained, &amp; to assume among the powers of the earth the equal &amp; independant station to which the laws of nature &amp; of nature’s god entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the change.</p>
 		<p>We hold these truths to be sacred &amp; undeniable; that all men are created equal &amp; independant, that from that equal creation they derive rights inherent &amp; inalienable, among which are the preservation of life, &amp; liberty, &amp; the pursuit of happiness; that to secure these ends, governments are instituted among men, deriving their just powers from the consent of the governed; that whenever any form of government shall become destructive of these ends, it is the right of the people to alter or to abolish it, &amp; to institute new government, laying it’s foundation on such principles &amp; organising it’s powers in such form, as to them shall seem most likely to effect their safety &amp; happiness. prudence indeed will dictate that governments long established should not be changed for light &amp; transient causes: and accordingly all experience hath shewn that mankind are more disposed to suffer while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. but when a long train of abuses &amp; usurpations, begun at a distinguished period, &amp; pursuing invariably the same object, evinces a design to subject them to arbitrary power, it is their right, it is their duty, to throw off such government &amp; to provide new guards for their future security. such has been the patient sufferance of these colonies; &amp; such is now the necessity which constrains them to expunge their former systems of government. the history of his present majesty, is a history of unremitting injuries and usurpations, among which no one fact stands single or solitary to contradict the uniform tenor of the rest, all of which have in direct object the establishment of an absolute tyranny over these states. to prove this, let facts be submitted to a candid world, for the truth of which we pledge a faith yet unsullied by falsehood.</p>
 </div>
@@ -422,12 +421,12 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 		<p>he is at this time transporting large armies of foreign merce naries to compleat the works of death, desolation &amp; tyranny, already begun with circumstances of cruelty &amp; perfidy unworthy the head of a civilized nation:</p>
 		<p>he has endeavored to bring on the inhabitants of our frontiers the merciless Indian savages, whose known rule of warfare is an undistinguished destruction of all ages, sexes, &amp; conditions of existence:</p>
 		<p>he has incited treasonable insurrections in our fellow-subjects, with the allurements of forfeiture &amp; confiscation of our property:</p>
-		<p>he has waged cruel war against human nature itself, violating it’s most sacred rights of life &amp; liberty in the persons of a distant people who never offended him, captivating &amp; carrying them into slavery in another hemisphere, or to incur miserable death in their transportation thither. this piratical warfare, the opprobrium of <b>infidel</b> powers, is the warfare of the CHRISTIAN king of Great Britain. determined to keep open a market where MEN should be bought &amp; sold, he has prostituted his negative for suppressing every legislative attempt to prohibit or to restrain this execrable commerce: and that this assemblage of horrors might want no fact of distinguished die, he is now exciting those very people to rise in arms among us, and to purchase that liberty of which he has deprived them, &amp; murdering the people upon whom he also obtruded them; thus paying off former crimes committed against the  <b>liberties</b> of one people, with crimes which he urges them to commit against the <b>lives</b> of another.</p>
-		<p>in every stage of these oppressions we have petitioned for redress in the most humble terms; our repeated petitions have been answered by repeated injury. a prince whose character is thus marked by every act which may define a tyrant, is unfit to be the ruler of a people who mean to be free. future ages will scarce believe that the hardiness of one man, adventured within the short compass of 12 years only, on so many acts of tyranny without a mask, over a people fostered &amp; fixed in principles of liberty.</p>
+		<p>he has waged cruel war against human nature itself, violating it’s most sacred rights of life &amp; liberty in the persons of a distant people who never offended him, captivating &amp; carrying them into slavery in another hemisphere, or to incur miserable death in their transportation thither. this piratical warfare, the opprobrium of <b>infidel</b> powers, is the warfare of the CHRISTIAN king of Great Britain. determined to keep open a market where MEN should be bought &amp; sold, he has prostituted his negative for suppressing every legislative attempt to prohibit or to restrain this execrable commerce: and that this assemblage of horrors might want no fact of distinguished die, he is now exciting those very people to rise in arms among us, and to purchase that liberty of which he has deprived them, &amp; murdering the people upon whom he also obtruded them; thus paying off former crimes committed against the  <b>liberties</b> of one people, with crimes which he urges them to commit against the <b>lives</b> of&nbsp;another.</p>
+		<p>in every stage of these oppressions we have petitioned for redress in the most humble terms; our repeated petitions have been answered by repeated injury. a prince whose character is thus marked by every act which may define a tyrant, is unfit to be the ruler of a people who mean to be free. future ages will scarce believe that the hardiness of one man, adventured within the short compass of 12 years only, on so many acts of tyranny without a mask, over a people fostered &amp; fixed in principles of&nbsp;liberty.</p>
 </div>
 <div class="broadsheet handwritten">
-		<p>Nor have we been wanting in attentions to our British brethren. we have warned them from time to time of attempts by their legislature to extend a jurisdiction over these our states. we have reminded them of the circumstances of our emigration &amp; settlement here, no one of which could warrant so strange a pretension: that these were effected at the expence of our own blood &amp; treasure, unassisted by the wealth or the strength of Great Britain: that in constituting indeed our several forms of government, we had adopted one common king, thereby laying a foundation for perpetual league &amp; amity with them: but that submission to their parliament was no part of our constitution, nor ever in idea, if history may be credited: and we appealed to their native justice &amp; magnanimity, as well as to the ties of our common kindred to disavow these usurpations which were likely to interrupt our correspondence &amp; connection. they too have been deaf to the voice of justice &amp; of consanguinity, &amp; when occasions have been given them, by the regular course of their laws, of removing from their councils the disturbers of our harmony, they have by their free election re-established them in power. at this very time too they are permitting their chief magistrate to send over not only soldiers of our common blood, but Scotch &amp; foreign mercenaries to invade &amp; deluge us in blood. these facts have given the last stab to agonizing affection, and manly spirit bids us to renounce for ever these unfeeling brethren. we must endeavor to forget our former love for them, and to hold them as we hold the rest of mankind, enemies in war, in peace friends. we might have been a free &amp; great people together; but a communication of grandeur &amp; of freedom it seems is below their dignity. be it so, since they will have it: the road to glory &amp; happiness is open to us too; we will climb it in a separate state, and acquiesce in the necessity which pronounces our everlasting Adieu!</p>
-		<p>We therefore the representatives of the United States of America in General Congress assembled do, in the name &amp; by authority of the good people of these states, reject and renounce all allegiance &amp; subjection to the kings of Great Britain &amp; all others who may hereafter claim by, through, or under them; we utterly dissolve &amp; break off all political connection which may have heretofore subsisted between us &amp; the people or parliament of Great Britain; and finally we do assert and declare these a colonies to be free and independant states, and that as free &amp; independant states they shall hereafter have power to levy war, conclude peace, contract alliances, establish commerce, &amp; to do all other acts and things which independent states may of right do. And for the support of this declaration we mutually pledge to each other our lives, our fortunes, &amp; our sacred honour.</p>
+		<p>Nor have we been wanting in attentions to our British brethren. we have warned them from time to time of attempts by their legislature to extend a jurisdiction over these our states. we have reminded them of the circumstances of our emigration &amp; settlement here, no one of which could warrant so strange a pretension: that these were effected at the expence of our own blood &amp; treasure, unassisted by the wealth or the strength of Great Britain: that in constituting indeed our several forms of government, we had adopted one common king, thereby laying a foundation for perpetual league &amp; amity with them: but that submission to their parliament was no part of our constitution, nor ever in idea, if history may be credited: and we appealed to their native justice &amp; magnanimity, as well as to the ties of our common kindred to disavow these usurpations which were likely to interrupt our correspondence &amp; connection. they too have been deaf to the voice of justice &amp; of consanguinity, &amp; when occasions have been given them, by the regular course of their laws, of removing from their councils the disturbers of our harmony, they have by their free election re-established them in power. at this very time too they are permitting their chief magistrate to send over not only soldiers of our common blood, but Scotch &amp; foreign mercenaries to invade &amp; deluge us in blood. these facts have given the last stab to agonizing affection, and manly spirit bids us to renounce for ever these unfeeling brethren. we must endeavor to forget our former love for them, and to hold them as we hold the rest of mankind, enemies in war, in peace friends. we might have been a free &amp; great people together; but a communication of grandeur &amp; of freedom it seems is below their dignity. be it so, since they will have it: the road to glory &amp; happiness is open to us too; we will climb it in a separate state, and acquiesce in the necessity which pronounces our everlasting&nbsp;Adieu!</p>
+		<p>We therefore the representatives of the United States of America in General Congress assembled do, in the name &amp; by authority of the good people of these states, reject and renounce all allegiance &amp; subjection to the kings of Great Britain &amp; all others who may hereafter claim by, through, or under them; we utterly dissolve &amp; break off all political connection which may have heretofore subsisted between us &amp; the people or parliament of Great Britain; and finally we do assert and declare these a colonies to be free and independant states, and that as free &amp; independant states they shall hereafter have power to levy war, conclude peace, contract alliances, establish commerce, &amp; to do all other acts and things which independent states may of right do. And for the support of this declaration we mutually pledge to each other our lives, our fortunes, &amp; our sacred&nbsp;honour.</p>
 </div>
 
 </body></html>
