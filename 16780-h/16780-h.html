@@ -21,11 +21,11 @@
 	div.image { text-align: center; }
 	div.broadsheet { display: block; margin: .25em .75em; border: solid 1px gray; padding: .25em .75em; text-align: justify; }
 	div.broadsheet.stone { background: #e6e6e0; }
-	div.broadsheet.goddard { background: #dfaf90; }
+	div.broadsheet.goddard { background: #facfa0; }
 	div.broadsheet.handwritten { background: #ffffd0; }
 	@media (prefers-color-scheme: dark) {
-	    div.broadsheet.stone { background: #303020; }
-		div.broadsheet.goddard { background: #202000; }
+	    div.broadsheet.stone { background: #303030; }
+		div.broadsheet.goddard { background: #180d00; }
 		div.broadsheet.handwritten { background: #202000; }
 	}
 	div.banner, div.ownership, div.headline { text-align: center; margin-bottom: 20px;}
@@ -34,53 +34,25 @@
 	div.headline { font-size: 120%; }
 	span.smaller { font-size: 60%; }
 	span.spaced { letter-spacing: .5em; }
+	span.smallcaps { font-variant-caps: small-caps; }
+
+	hr { margin: 2em; }
 	
 	div.stone p#firstparagraph { text-indent: 25%; }
 	div.stone p#secondparagraph { text-indent: 10%; }
-	div.stone xspan.truths, xspan.facts { display: list-item; text-indent: 2em; list-style: none; margin: 1em 0; }
+	.stonesignatories { text-align: right; }
 	div.stone div.signatories { display: inline-block; margin: .5em 0; padding: 0; vertical-align: top; width: 9em; }
-	div.stone div.signatories p { display: inline; margin: 0; padding: 0; text-indent: 0; xoutline: solid pink 9px }
+	div.stone div.signatories p { display: inline; margin: 0; padding: 0; text-indent: 0; }
 	
-.goodardsignatories {
-  column-width: 20em;
-  column-gap: 2em;
-  max-width: 80em;
-  margin: 0 auto;
-}
-
-.statesignatories {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  padding-bottom: 1.25em;
-  break-inside: avoid;       /* never split a state block across columns */
-}
-
-.state {
-  flex: 0 0 8em;
-  text-align: right;
-  font-variant: small-caps;
-  letter-spacing: 0.05em;
-}
-
-.signatories {
-  flex: 1 1 auto;
-  line-height: 1.4;
-  text-align: left;
-}
-
-/* Left curly-bracket effect */
-.leftbracket {
-  padding-left: 1em;
-  border-left: thin solid currentColor;
-  border-radius: .4em 0 0 .4em;
-  border-bottom: none;
-  border-left: 2px solid currentColor;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-
-}
-div.goddard div.authorization { padding-left: 55%; text-align: left; }
+	.goodardsignatories { column-width: 20em; column-gap: 2em; max-width: 80em; margin: 0 auto; }
+	.statesignatories { display: flex; align-items: center; gap: 1em; padding-bottom: 1.25em; break-inside: avoid; }
+	.state { flex: 0 0 8em; text-align: right; font-variant: small-caps; letter-spacing: 0.05em; }
+	.signatories { flex: 1 1 auto; line-height: 1.4; text-align: left; }
+	.leftbracket { 
+		padding-left: 1em; border-left: thin solid currentColor; border-radius: .4em 0 0 .4em;
+  		border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-right: 2px solid transparent;
+	}
+	div.goddard div.authorization { padding-left: 55%; text-align: left; }
 
 	div.gallery { text-align: center; }
 	div.gallery .fig { display: inline-block; width: 192px; margin: 0 auto; text-align: center; }
@@ -91,9 +63,9 @@ div.goddard div.authorization { padding-left: 55%; text-align: left; }
 <body>
 
 <h1>The Declaration of Independence of The United States of&nbsp;America</h1>
-<p>The Project Gutenberg HTML edition of The Declaration of Independence, by Thomas Jefferson; Edition 2 (December 29, 2026)</p>
+<p>The Project Gutenberg HTML edition of The Declaration of Independence by Thomas Jefferson</p>
 
-<div class="notes">
+
 <p><b>Table of Contents</b></p>
 
 <ul>
@@ -105,15 +77,18 @@ div.goddard div.authorization { padding-left: 55%; text-align: left; }
 
 <p><a id="transcribers"></a></p>
 
+<div class="notes">
 <p><b>Transcribers Notes</b></p>
-<p>This ebook collects the various drafts and productions of the Declaration of Independence. While no additional efforts or scholarship is added, this particular collection is updated in honor of the 55th anniversary of ebook #1, Project Gutenberg's production of the Declaration of Independence. It contains transcripts of the original handwritten or printed editions, placed into accessible digital texts, suitable for study by English readers.</p>
+<p>This ebook collects the drafted, finished, and published versions of the Declaration of Independence. This collection is produced in honor of the 55th anniversary of ebook #1, Project Gutenberg's digital edition of the Declaration of Independence. It contains transcripts of the original handwritten or printed editions, converted to accessible digital texts. Each transcript is as accurate as possible including the spelling, punctuation, and layout as used in the originals.</p>
 </div>
+
+<hr>
 
 <p><a id="stone"></a></p>
 
 <h2>William Stone Facsimile</h2>
 
-<p>The text below accurately represents the text of the 1823 facsimile of the Declaration of Independence produced by William Stone. It includes the original spelling, punctuation, and paragraph marks as they were presented on the original broadsheet of parchment.</p>
+<p>The text below accurately represents the text of the 1823 facsimile of the Declaration of Independence produced by William Stone. It includes the original spellings, punctuation, and paragraph marks as they were presented on the original broadsheet of parchment.</p>
 
 <div class="gallery fig"><a href="https://en.wikipedia.org/wiki/File:United_States_Declaration_of_Independence.jpg"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/250px-United_States_Declaration_of_Independence.jpg" alt="Thumbnail image of the Declaration of Independence." width="200"></a></div>
 
@@ -156,7 +131,7 @@ War, in Peace&nbsp;Friends.</span></p>
 <p id="secondparagraph"><b>We, therefore,</b> the Representatives of the <b>united States of America,</b> in General Congress, Assembled, appealing to the Supreme Judge of the world for the rectitude of our intentions, do, in the Name, and by the Authority of the good People of these Colonies, solemnly publish and declare, That these United Colonies are, and of Right ought to be <b>Free
 and Independent States</b>; that they are Absolved from all Allegiance to the British Crown, and that all political connection between them and the State of Great Britain, is and ought to be totally dissolved; and that as Free and Independent States, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which Independent States may of right do.&nbsp;—— And for the support of this Declaration, with a firm reliance on the Protection of Divine Providence, we mutually pledge to each other our Lives, our Fortunes and our sacred&nbsp;Honor.</p>
 
-
+<div class="stonesignatories">
 <div class="signatories" id="Georgia">
 <p>Button Gwinnett<br>Lyman Hall<br>George Walton</p>
 </div>
@@ -169,7 +144,7 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 <p>Edward Rutledge<br>Thomas Heyward, Jr.<br>Thomas Lunch, Jr.<br>Arthur Middleton</p>
 </div>
 
-<div class="signatories" id="Massachusetts">
+<div class="signatories ownership" id="Massachusetts">
 <p>John Hancock</p>
 </div>
 
@@ -217,6 +192,7 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 <p>Matthew Thornton</p>
 </div>
 
+</div>
 </div>
 
 <hr>
@@ -297,7 +273,7 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 
 <p>WE, therefore, the Representatives of the UNITED STATES OF AMERICA, in GENERAL CONGRESS Assembled, appealing to the Supreme Judge of the World for the Rectitude of our Intentions, do, in the Name, and by Authority of the good People of these Colonies, solemnly Publish and Declare, That these United Colonies are, and of Right ought to be, FREE AND INDEPENDENT STATES; that they are absolved from all Allegiance to the British Crown, and that all political Connexion between them and the State of Great-Britain, is, and ought to be, totally dissolved; and that as FREE AND INDEPENDENT STATES, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which INDEPENDENT STATES may of Right do. And for the Support of this Declaration, with a firm Reliance on the Protection of DIVINE PROVIDENCE, we mutually pledge to each other our <em>Lives,</em> our <em>Fortunes,</em> and our <em>sacred&nbsp;Honour.</em></p>
 
-<div class="headline">John Hancock.</div>
+<div class="headline ownership">John Hancock.</div>
 
 <div class="goodardsignatories">
 <div class="statesignatories">
@@ -356,7 +332,7 @@ and Independent States</b>; that they are Absolved from all Allegiance to the Br
 
 <div class="headline">IN CONGRESS, JANUARY&nbsp;18,&nbsp;1777.</div>
 
-<p><span class="italics">ORDERED,</span><br><span class="smallcaps">THAT</span> an authenticated Copy of the DECLARATION OF INDEPENDENCY, with the Names of the MEMBERS of CONGRESS, subscribing the same, be sent to each of the UNITED STATES, and that they be desired to have the same put on&nbsp;RECORD.</p>
+<p><i>ORDERED,</i><br>THAT an authenticated Copy of the DECLARATION OF INDEPENDENCY, with the Names of the MEMBERS of CONGRESS, subscribing the same, be sent to each of the UNITED STATES, and that they be desired to have the same put on&nbsp;RECORD.</p>
 
 <div class="authorization">
 	By Order of&nbsp;CONGRESS,<br>
